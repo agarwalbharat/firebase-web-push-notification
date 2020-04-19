@@ -40,6 +40,8 @@ const subscribe = () => {
         } else {
             token.textContent = "Permission not granted";
         }
+    }).catch(e=>{
+        token.textContent=e;
     });
 };
 
@@ -48,15 +50,15 @@ const subscribe = () => {
 const sendPush = () => {
     // Getting From Data when button clicked
     const token = document.getElementById('usertoken').value;
-    const title = document.getElementById('title').value;
-    const body = document.getElementById('body').value;
+    const notificationTitle = document.getElementById('title').value;
+    const notificationBody = document.getElementById('body').value;
 
     // Adding data to payload for sending push notifications
-    let payload = {
+    let body = {
         to: token,
         notification: {
-            title: title,
-            body: body,
+            title: notificationTitle,
+            body: notificationBody,
             click_action: "/",
         }
     };
@@ -69,7 +71,7 @@ const sendPush = () => {
             Authorization: "key=AAAAuIQZHXs:APA91bF6OzMEeWl7aP0DSgGdZDIvR6JSjhvigHSF9Tb5dxmXP_-5TwhlhHqgcol0H8r6EbZRL0Mfp8eDT65S6YYH1shZiviwzFhZnJGlaDYL42rjqeBnWBEdtT9tJzl_CZ4U1HLevIsT",
             "Content-Type": "application/json"
         }),
-        body: JSON.stringify(payload)
+        body: JSON.stringify(body)
     };
 
     // Sending Push notifications to user using fetch api
