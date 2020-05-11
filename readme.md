@@ -3,7 +3,7 @@
 ### Find more info @[Medium](https://medium.com/@agarwalbharat68/sending-push-notifications-from-firebase-cf4c427be2c)
 
 ### Show some :heart: and :star: the repo to support the project. 
-For more, contact me @[facebook](https://www.facebook.com/bharatagsrwal), @[Twitter](https://www.twitter.com/bharatagsrwal) @[Medium](https://medium.com/@agarwalbharat68) or @[Website](https://iambharat.tk)
+For more, contact me @[facebook](https://www.facebook.com/bharatagsrwal), @[Twitter](https://www.twitter.com/bharatagsrwal) @[Medium](https://medium.com/@agarwalbharat68) or @[Website](https://iambharat.me)
 
 # 👍 Contribution
 1. Fork it
@@ -19,4 +19,4 @@ Write me in [issues](https://github.com/bharatagsrwal/firebase-web-push-notifica
 ## Follow :trophy:
 Follow me on :punch:
 [Bharat](https://github.com/bharatagsrwal) ([Facebook](https://www.facebook.com/bharatagsrwal)) ([Linkedin](https://www.linkedin.com/in/bharatagsrwal)) ([Medium](https://medium.com/@agarwalbharat68))
-([Website](https://iambharat.tk))([Twitter](https://www.twitter.com/bharatagsrwal))
+([Website](https://iambharat.me))([Twitter](https://www.twitter.com/bharatagsrwal))
